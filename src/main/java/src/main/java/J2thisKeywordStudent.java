@@ -1,17 +1,17 @@
 package src.main.java;
-class thisKeywordStudent{  
+class J2thisKeywordStudent{  
 	int rollno;  
 	String name,course;  
 	float fee;  
-	thisKeywordStudent getStudent(){
+	J2thisKeywordStudent getStudent(){
 		return this;
 	}
-	thisKeywordStudent(int rollno,String name,String course){  
+	J2thisKeywordStudent(int rollno,String name,String course){  
 		this.rollno=rollno;  
 		this.name=name;  
 		this.course=course;  
 	}  
-	thisKeywordStudent(int rollno,String name,String course,float fee){  
+	J2thisKeywordStudent(int rollno,String name,String course,float fee){  
 //		this.fee=fee;  
 		this(rollno,name,course);//C.T.Error  
 	}  
@@ -19,8 +19,8 @@ class thisKeywordStudent{
 }  
 class TestThis8{  
 	public static void main(String args[]){  
-		thisKeywordStudent s1=new thisKeywordStudent(111,"ankit","java");  
-		thisKeywordStudent s2=new thisKeywordStudent(112,"sumit","java",600f);  
+		J2thisKeywordStudent s1=new J2thisKeywordStudent(111,"ankit","java");  
+		J2thisKeywordStudent s2=new J2thisKeywordStudent(112,"sumit","java",600f);  
 		s1.display();  
 		s2.display();  
 		s2.getStudent().display();

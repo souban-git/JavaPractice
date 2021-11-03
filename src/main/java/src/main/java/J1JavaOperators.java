@@ -1,8 +1,8 @@
 package src.main.java;
-public class JavaOperators {
+public class J1JavaOperators {
 
 	public static void main(String[] args) {
-		JavaOperators jo = new JavaOperators();
+		J1JavaOperators jo = new J1JavaOperators();
 		jo.displayNum(10, 12);
 
 	}
